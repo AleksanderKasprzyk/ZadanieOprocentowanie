@@ -37,6 +37,7 @@ InflacjaGrudzien2 = 1.499708521
 #Wzor, ktory wykorzystalem z Excela
 #Wzor = (1 + ((B3+3)/1200)) * C2 - 200
 
+#Pierwszy rok
 #Pierwsza rata styczen
 Oprocentowanie1 = (1 + ((InflacjaStyczen1+OprocentowanieKredytu)/1200)) * WartoscKredytu - Rata
 Roznica1 = (WartoscKredytu - Oprocentowanie1)
@@ -61,3 +62,29 @@ print(f'Twoja pozostała kwota kredytu to {Oprocentowanie5}, to {Roznica5} mniej
 Oprocentowanie6 = (1 + ((InflacjaCzerwiec1+OprocentowanieKredytu)/1200)) * Oprocentowanie5 - Rata
 Roznica6 = (Oprocentowanie5 - Oprocentowanie6)
 print(f'Twoja pozostała kwota kredytu to {Oprocentowanie6}, to {Roznica6} mniej niż w poprzednim miesiącu - Maju.')
+#Siodma rata Lipiec
+Oprocentowanie7 = (1 + ((InflacjaLipiec1+OprocentowanieKredytu)/1200)) * Oprocentowanie6 - Rata
+Roznica7 = (Oprocentowanie6 - Oprocentowanie7)
+print(f'Twoja pozostała kwota kredytu to {Oprocentowanie7}, to {Roznica7} mniej niż w poprzednim miesiącu - Czerwcu.')
+#Osma rata Sierpien
+Oprocentowanie8 = (1 + ((InflacjaSierpien1+OprocentowanieKredytu)/1200)) * Oprocentowanie7 - Rata
+Roznica8 = (Oprocentowanie7 - Oprocentowanie8)
+print(f'Twoja pozostała kwota kredytu to {Oprocentowanie8}, to {Roznica8} mniej niż w poprzednim miesiącu - Lipcu.')
+#Dziewiata rata Wrzesien
+Oprocentowanie9 = (1 + ((InflacjaWrzesien1+OprocentowanieKredytu)/1200)) * Oprocentowanie8 - Rata
+Roznica9 = (Oprocentowanie8 - Oprocentowanie9)
+print(f'Twoja pozostała kwota kredytu to {Oprocentowanie9}, to {Roznica9} mniej niż w poprzednim miesiącu - Sierpniu.')
+#Dziesiata rata Pazdziernik
+Oprocentowanie10 = (1 + ((InflacjaPazdziernik1+OprocentowanieKredytu)/1200)) * Oprocentowanie9 - Rata
+Roznica10 = (Oprocentowanie9 - Oprocentowanie10)
+print(f'Twoja pozostała kwota kredytu to {Oprocentowanie10}, to {Roznica10} mniej niż w poprzednim miesiącu - Wrzesniu.')
+#Jedenasta rata Listopad
+Oprocentowanie11 = (1 + ((InflacjaListopad1+OprocentowanieKredytu)/1200)) * Oprocentowanie10 - Rata
+Roznica11 = (Oprocentowanie10 - Oprocentowanie11)
+print(f'Twoja pozostała kwota kredytu to {Oprocentowanie11}, to {Roznica11} mniej niż w poprzednim miesiącu - Pazdzierniku.')
+#Dwunasta rata Grudzien
+Oprocentowanie12 = (1 + ((InflacjaGrudzien1+OprocentowanieKredytu)/1200)) * Oprocentowanie11 - Rata
+Roznica12 = (Oprocentowanie11 - Oprocentowanie12)
+print(f'Twoja pozostała kwota kredytu to {Oprocentowanie12}, to {Roznica12} mniej niż w poprzednim miesiącu - Listopadzie.')
+
+#Drugi rok
