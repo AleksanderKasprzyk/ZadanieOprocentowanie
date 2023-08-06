@@ -88,3 +88,51 @@ Roznica12 = (Oprocentowanie11 - Oprocentowanie12)
 print(f'Twoja pozostała kwota kredytu to {Oprocentowanie12}, to {Roznica12} mniej niż w poprzednim miesiącu - Listopadzie.')
 
 #Drugi rok
+#13-nasta rata
+Oprocentowanie13 = (1 + ((InflacjaStyczen2+OprocentowanieKredytu)/1200)) * Oprocentowanie12 - Rata
+Roznica13 = (Oprocentowanie12 - Oprocentowanie13)
+print(f'Twoja pozostała kwota kredytu to {Oprocentowanie13}, to {Roznica13} mniej niż w poprzednim miesiącu - Grudniu.')
+#14-nasta rata
+Oprocentowanie14 = (1 + ((InflacjaLuty2+OprocentowanieKredytu)/1200)) * Oprocentowanie13 - Rata
+Roznica14 = (Oprocentowanie13 - Oprocentowanie14)
+print(f'Twoja pozostała kwota kredytu to {Oprocentowanie14}, to {Roznica14} mniej niż w poprzednim miesiącu - Styczniu.')
+#15-sta rata
+Oprocentowanie15 = (1 + ((InflacjaMarzec2+OprocentowanieKredytu)/1200)) * Oprocentowanie14 - Rata
+Roznica15 = (Oprocentowanie14 - Oprocentowanie15)
+print(f'Twoja pozostała kwota kredytu to {Oprocentowanie15}, to {Roznica15} mniej niż w poprzednim miesiącu - Lutym.')
+#16-sta rata
+Oprocentowanie16 = (1 + ((InflacjaKwiecien2+OprocentowanieKredytu)/1200)) * Oprocentowanie15 - Rata
+Roznica16 = (Oprocentowanie15 - Oprocentowanie16)
+print(f'Twoja pozostała kwota kredytu to {Oprocentowanie16}, to {Roznica16} mniej niż w poprzednim miesiącu - Marcu.')
+#17-sta rata
+Oprocentowanie17 = (1 + ((InflacjaMaj2+OprocentowanieKredytu)/1200)) * Oprocentowanie16 - Rata
+Roznica17 = (Oprocentowanie16 - Oprocentowanie17)
+print(f'Twoja pozostała kwota kredytu to {Oprocentowanie17}, to {Roznica17} mniej niż w poprzednim miesiącu - Kwietniu.')
+#18-sta rata
+Oprocentowanie18 = (1 + ((InflacjaCzerwiec2+OprocentowanieKredytu)/1200)) * Oprocentowanie17 - Rata
+Roznica18 = (Oprocentowanie17 - Oprocentowanie18)
+print(f'Twoja pozostała kwota kredytu to {Oprocentowanie18}, to {Roznica18} mniej niż w poprzednim miesiącu - Maju.')
+#19-sta rata
+Oprocentowanie19 = (1 + ((InflacjaLipiec2+OprocentowanieKredytu)/1200)) * Oprocentowanie18 - Rata
+Roznica19 = (Oprocentowanie18 - Oprocentowanie19)
+print(f'Twoja pozostała kwota kredytu to {Oprocentowanie19}, to {Roznica19} mniej niż w poprzednim miesiącu - Czerwcu.')
+#20-sta rata
+Oprocentowanie20 = (1 + ((InflacjaSierpien2+OprocentowanieKredytu)/1200)) * Oprocentowanie19 - Rata
+Roznica20 = (Oprocentowanie19 - Oprocentowanie20)
+print(f'Twoja pozostała kwota kredytu to {Oprocentowanie20}, to {Roznica20} mniej niż w poprzednim miesiącu - Lipcu.')
+#21-sta rata
+Oprocentowanie21 = (1 + ((InflacjaWrzesien2+OprocentowanieKredytu)/1200)) * Oprocentowanie20 - Rata
+Roznica21 = (Oprocentowanie20 - Oprocentowanie21)
+print(f'Twoja pozostała kwota kredytu to {Oprocentowanie21}, to {Roznica21} mniej niż w poprzednim miesiącu - Sierpniu.')
+#22sta rata
+Oprocentowanie22 = (1 + ((InflacjaPazdziernik2+OprocentowanieKredytu)/1200)) * Oprocentowanie21 - Rata
+Roznica22 = (Oprocentowanie21 - Oprocentowanie22)
+print(f'Twoja pozostała kwota kredytu to {Oprocentowanie22}, to {Roznica22} mniej niż w poprzednim miesiącu - Wrzesniu.')
+#23sta rata
+Oprocentowanie23 = (1 + ((InflacjaListopad2+OprocentowanieKredytu)/1200)) * Oprocentowanie22 - Rata
+Roznica23 = (Oprocentowanie22 - Oprocentowanie23)
+print(f'Twoja pozostała kwota kredytu to {Oprocentowanie23}, to {Roznica23} mniej niż w poprzednim miesiącu - Pazdzierniku.')
+#24sta rata
+Oprocentowanie24 = (1 + ((InflacjaGrudzien2+OprocentowanieKredytu)/1200)) * Oprocentowanie23 - Rata
+Roznica24 = (Oprocentowanie23 - Oprocentowanie24)
+print(f'Twoja pozostała kwota kredytu to {Oprocentowanie24}, to {Roznica24} mniej niż w poprzednim miesiącu - Listopadzie.')
