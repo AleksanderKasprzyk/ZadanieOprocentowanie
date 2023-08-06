@@ -45,7 +45,19 @@ print(f'Twoja pozostała kwota kredytu to {Oprocentowanie1}, to {Roznica1} mniej
 Oprocentowanie2 = (1 + ((InflacjaLuty1+OprocentowanieKredytu)/1200)) * Oprocentowanie1 - Rata
 Roznica2 = (Oprocentowanie1 - Oprocentowanie2)
 print(f'Twoja pozostała kwota kredytu to {Oprocentowanie2}, to {Roznica2} mniej niż w poprzednim miesiącu - Styczniu.')
-#Trzecia rata Kwiecien
+#Trzecia rata Marzec
 Oprocentowanie3 = (1 + ((InflacjaMarzec1+OprocentowanieKredytu)/1200)) * Oprocentowanie2 - Rata
 Roznica3 = (Oprocentowanie2 - Oprocentowanie3)
 print(f'Twoja pozostała kwota kredytu to {Oprocentowanie3}, to {Roznica3} mniej niż w poprzednim miesiącu - Lutym.')
+#Czwarta rata Kwiecien
+Oprocentowanie4 = (1 + ((InflacjaKwiecien1+OprocentowanieKredytu)/1200)) * Oprocentowanie3 - Rata
+Roznica4 = (Oprocentowanie3 - Oprocentowanie4)
+print(f'Twoja pozostała kwota kredytu to {Oprocentowanie4}, to {Roznica4} mniej niż w poprzednim miesiącu - Marcu.')
+#Piata rata Maj
+Oprocentowanie5 = (1 + ((InflacjaMaj1+OprocentowanieKredytu)/1200)) * Oprocentowanie4 - Rata
+Roznica5 = (Oprocentowanie4 - Oprocentowanie5)
+print(f'Twoja pozostała kwota kredytu to {Oprocentowanie5}, to {Roznica5} mniej niż w poprzednim miesiącu - Kwietniu.')
+#Szosta rata Czerwiec
+Oprocentowanie6 = (1 + ((InflacjaCzerwiec1+OprocentowanieKredytu)/1200)) * Oprocentowanie5 - Rata
+Roznica6 = (Oprocentowanie5 - Oprocentowanie6)
+print(f'Twoja pozostała kwota kredytu to {Oprocentowanie6}, to {Roznica6} mniej niż w poprzednim miesiącu - Maju.')
